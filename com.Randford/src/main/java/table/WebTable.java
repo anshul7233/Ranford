@@ -35,6 +35,9 @@ public class WebTable extends Base {
 				}
 
 				if (pagelinks[l].contains("...")) {
+					System.out.println("git commit");
+					System.out.println("git commit");
+					System.out.println("git commit");
 					status = true;
 					m1(driver, prop, operation, id);
 				}
