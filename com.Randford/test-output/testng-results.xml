@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63" started-at="2018-06-15T19:01:41Z" finished-at="2018-06-15T19:01:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63" started-at="2018-06-15T19:01:41Z" finished-at="2018-06-15T19:01:41Z">
+      <class name="com.PageLibrary.com.Randford.TestExecution">
+        <test-method status="FAIL" signature="verify_launch(java.lang.String)[pri:0, instance:com.PageLibrary.com.Randford.TestExecution@224edc67]" name="verify_launch" is-config="true" duration-ms="0" started-at="2018-06-16T00:31:41Z" finished-at="2018-06-16T00:31:41Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method verify_launch but has not been marked @Optional or defined
+in C:\Users\Ansh\AppData\Local\Temp\testng-eclipse-158490205\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method verify_launch but has not been marked @Optional or defined
+in C:\Users\Ansh\AppData\Local\Temp\testng-eclipse-158490205\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_launch -->
+        <test-method status="SKIP" signature="verify_login()[pri:1, instance:com.PageLibrary.com.Randford.TestExecution@224edc67]" name="verify_login" duration-ms="6" started-at="2018-06-16T00:31:41Z" finished-at="2018-06-16T00:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="SKIP" signature="branch_excelConnection()[pri:2, instance:com.PageLibrary.com.Randford.TestExecution@224edc67]" name="branch_excelConnection" duration-ms="1" started-at="2018-06-16T00:31:41Z" finished-at="2018-06-16T00:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branch_excelConnection -->
+        <test-method status="SKIP" signature="role_excelConnection()[pri:3, instance:com.PageLibrary.com.Randford.TestExecution@224edc67]" name="role_excelConnection" duration-ms="2" started-at="2018-06-16T00:31:41Z" finished-at="2018-06-16T00:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- role_excelConnection -->
+      </class> <!-- com.PageLibrary.com.Randford.TestExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

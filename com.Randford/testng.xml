@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+
+		<parameter name="browser" value="chrome"></parameter>
+
+
+		<classes>
+			<class name="com.PageLibrary.com.Randford.TestExecution">
+				<methods>
+
+					<include name="verify_login()"></include>
+					<include name="branch_excelConnection()"></include>
+					<include name="role_excelConnection()"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+
+	<!-- <test thread-count="5" name="Test1">
+
+		<parameter name="browser" value="firefox"></parameter>
+
+
+		<classes>
+			<class name="com.PageLibrary.com.Randford.TestExecution">
+				<methods>
+					<include name="verify_login()"></include>
+					<include name="role_excelConnection()"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test> Test
+
+ --></suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.PageLibrary.com.Randford.TestExecution">
+        <methods>
+          <include name="verify_launch"/>
+          <include name="branch_excelConnection"/>
+          <include name="role_excelConnection"/>
+          <include name="verify_login"/>
+        </methods>
+      </class> <!-- com.PageLibrary.com.Randford.TestExecution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
